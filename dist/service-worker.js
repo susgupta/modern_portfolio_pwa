@@ -2,7 +2,6 @@
 const cacheName = "static";
 //yes, you can cache external fetched resources
 const precacheResources = [
-  "/",
   "index.html",
   "about.html",
   "contact.html",

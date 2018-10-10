@@ -1,0 +1,30 @@
+{
+  "short_name": "Sushil G PWA Portfolio",
+  "name": "Sushil G Progressive Web App Modern Portfolio",
+  "icons": [
+    {
+      "src": "img/icons/app-icon-96.png",
+      "sizes": "96x96",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icons/app-icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icons/app-icon-256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "img/icons/app-icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "index.html",
+  "background_color": "#ccc",
+  "display": "standalone",
+  "theme_color": "#0f1b30"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "SushilGuptaModernPortfolioApp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "window": {
+    "title": "Sushil Gupta Modern Portfolio PWA",
+    "icon": "assets/icon.png",
+    "toolbar": true,
+    "width": 900,
+    "height": 900,
+    "min_width": 900,
+    "min_height": 900,
+    "max_width": 900,
+    "max_height": 900,
+    "position": "mouse"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

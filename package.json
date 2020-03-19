@@ -5,11 +5,15 @@
   "main": "index.js",
   "homepage": "https://susgupta.github.io/modern_portfolio",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css --recursive"
+    "sass": "node-sass -w scss/ -o dist/css --recursive",
+    "dev": "nw dist/",
+    "prod": "nwbuild --platforms win32,win64 --buildDir desktopAppOutput/ dist/"
   },
   "author": "Sushil Gupta",
   "license": "MIT",
-  "dependencies": {
-    "node-sass": "^4.9.2"
+  "devDependencies": {
+    "node-sass": "^4.9.2",
+    "nw": "^0.44.1-sdk",
+    "nw-builder": "^3.5.7"
   }
 }

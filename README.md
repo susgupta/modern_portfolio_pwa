@@ -1,6 +1,8 @@
 # Sushil G Modern Portfolio Progressive Web App
 
-Sushil G Modern Portolio PWA is **progressive web app** designed to showcase HTML, CSS (compiled from SASS) with minimal JavaScript. This application is focused on CSS using SASS to make site responsive on all platforms and devices.
+Sushil G Modern Portolio PWA is **progressive web app** designed to showcase HTML, CSS (compiled from SASS) with minimal JavaScript. This application is focused on CSS using SASS to make site responsive on all platforms and devices.  
+
+Furthermore using NW.js, this project can be built to run on desktop native environment.
 
 In addition this app conforms to the [Progressive Web App](https://developers.google.com/web/progressive-web-apps/) specification.
 
@@ -13,7 +15,7 @@ Finally this app is hosted on https site to conform to the progressive web app s
 
 **Update**
 
-The applicarion is now available as desktop application for Windows (for now).
+The application is now available as desktop application for Windows (for now).
 
 **NW.js** (previously known as node-webkit) was used to create builds for desktop application version.
 
@@ -55,10 +57,11 @@ Here is link to view the application:
 
 [Sushil G Modern Portfolio PWA](https://susgupta.github.io/modern_portfolio_pwa/)
 
-## Download The Desktop Version
+## How To Generate The Desktop Version
 
-For the simplest way is to get the binaries which are uploaded to the git repo.
+Note I haven't for now found a way handle installs from NW.js, so can follow below steps:
 
 1. Clone or download the repo
-2. Go the the **/desktopappversion/** folder
-3. Find the binary for your operating system.
+2. Install the node.js dependencies from `package.json`
+3. Run `desktop build` (see above) for production in effect creates the binaries.
+

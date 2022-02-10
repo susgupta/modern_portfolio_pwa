@@ -12,7 +12,7 @@
   "author": "Sushil Gupta",
   "license": "MIT",
   "devDependencies": {
-    "node-sass": "^4.9.2",
+    "node-sass": "^7.0.0",
     "nw": "^0.44.1-sdk",
     "nw-builder": "^3.5.7"
   }
